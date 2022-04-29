@@ -1,0 +1,21 @@
+*{
+    text-align: center;
+}
+.a1{
+    color: #4835d4;
+}
+
+.a2{
+    width: max-content;
+}
+.a3{
+    background-color: #4835d4;
+}
+.a4{
+    float: left;
+    padding: 0px;
+    margin: 40px;
+}
+.a4{
+    width: 1400px;
+}

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+<link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+ 
+    <h5>Design basic Registration form using Bootstrap</h5>
+    <section class="vh-100" style="background-color: #eee;">
+        <div class="container h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-12 col-xl-11">
+              <div class="card text-black" style="border-radius: 25px;">
+                <div class="card-body p-md-5">
+                  <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+      
+                      <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+      
+                      <form class="mx-1 mx-md-4">
+      
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="text" placeholder="Your Name" class="form-control" />
+                          </div>
+                        </div>
+      
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="email" placeholder="Your Email" class="form-control" />
+                          </div>
+                        </div>
+      
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="password" placeholder="Password" class="form-control" />
+                           
+                          </div>
+                        </div>
+      
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="password"  class="form-control" placeholder="Repeat your password">
+                        
+                          </div>
+                        </div>
+      
+                        <div class="form-check d-flex justify-content-center mb-5">
+                          <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+                          <label class="form-check-label" for="form2Example3">
+                            I agree all statements in <a href="#!">Terms of service</a>
+                          </label>
+                        </div>
+      
+                        <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="button" class="btn btn-primary btn-lg">Register</button>
+                        </div>
+      
+                      </form>
+      
+                    </div>
+                    <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+      
+                      <img src="images/1.jpg"
+                        class="img-fluid" alt="Sample image">
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--QUESTION 1 END HERE-->
+
+      <!--Question 2 start here-->
+      <h3>Registration with Address</h3>
+      <section class="h-100 h-custom gradient-custom-2">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12">
+              <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                <div class="card-body p-0">
+                  <div class="row g-0">
+                    <div class="col-lg-6">
+                      <div class="p-5">
+                        <h3 class="fw-normal mb-5 a1">General Infomation</h3>
+      
+                        <div class="mb-4 pb-2">
+                          <select class="select form-control form-control-lg">
+                            <option value="1">Title</option>
+                            <option value="2">Mr</option>
+                            <option value="3">Mrs</option>
+                            <option value="4">Ms</option>
+                          </select>
+                        </div>
+      
+                        <div class="row">
+                          <div class="col-md-6 mb-4 pb-2">
+      
+                            <div class="form-outline">
+                              <input type="text" placeholder="First Name" class="form-control form-control-lg" />
+                            
+                            </div>
+      
+                          </div>
+                          <div class="col-md-6 mb-4 pb-2">
+      
+                            <div class="form-outline">
+                              <input type="text" placeholder="Last Nmae" class="form-control form-control-lg" />
+                              
+                            </div>
+      
+                          </div>
+                        </div>
+      
+                        <div class="mb-4 pb-2">
+                          <select class="select form-control form-control-lg">
+                            <option value="1">Position</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                          </select>
+                        </div>
+      
+                        <div class="mb-4 pb-2">
+                          <div class="form-outline">
+                            <input type="text" placeholder="Position" class="form-control form-control-lg" />
+                        
+                          </div>
+                        </div>
+      
+                        <div class="row">
+                          <div class="col-md-6 mb-4 pb-2 mb-md-0 pb-md-0">
+      
+                            <div class="form-outline">
+                              <input type="text" placeholder="Bussiness Area" class="form-control form-control-lg" />
+                              
+                            </div>
+      
+                          </div>
+                          <div class="col-md-6">
+      
+                            <select class="select form-control-lg">
+                              <option value="1">Employees</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                              <option value="4">Four</option>
+                            </select>
+      
+                          </div>
+                        </div>
+      
+                      </div>
+                    </div>
+                    <div class="col-lg-6 a3 text-white">
+                      <div class="p-5">
+                        <h3 class="fw-normal mb-5">Contact Details</h3>
+      
+                        <div class="mb-4 pb-2">
+                          <div class="form-outline form-white">
+                            <input type="text" placeholder="Street + Nr" class="form-control form-control-lg" />
+                        
+                          </div>
+                        </div>
+      
+                        <div class="mb-4 pb-2">
+                          <div class="form-outline form-white">
+                            <input type="text" placeholder="Additional Information" class="form-control form-control-lg" />
+                            
+                          </div>
+                        </div>
+      
+                        <div class="row">
+                          <div class="col-md-5 mb-4 pb-2">
+      
+                            <div class="form-outline form-white">
+                              <input type="text" placeholder="Zip Code" class="form-control form-control-lg" />
+                              
+                            </div>
+      
+                          </div>
+                          <div class="col-md-7 mb-4 pb-2">
+      
+                            <div class="form-outline form-white">
+                              <input type="text" placeholder="Place" class="form-control form-control-lg" />
+                              
+                            </div>
+      
+                          </div>
+                        </div>
+      
+                        <div class="mb-4 pb-2">
+                          <div class="form-outline form-white">
+                            <input type="text" placeholder="Country" class="form-control form-control-lg" />
+                            
+                          </div>
+                        </div>
+      
+                        <div class="row">
+                          <div class="col-md-5 mb-4 pb-2">
+      
+                            <div class="form-outline form-white">
+                              <input type="text" placeholder="Code +" class="form-control form-control-lg" />
+                              
+                            </div>
+      
+                          </div>
+                          <div class="col-md-7 mb-4 pb-2">
+      
+                            <div class="form-outline form-white">
+                              <input type="text" placeholder="Phone Number" class="form-control form-control-lg" />
+                              
+                            </div>
+      
+                          </div>
+                        </div>
+      
+                        <div class="mb-4">
+                          <div class="form-outline a3 form-white">
+                            <input type="text" placeholder="Your Email" class="form-control form-control-lg" />
+                            
+                          </div>
+                        </div>
+      
+                        <div class="form-check d-flex justify-content-start mb-4 pb-3">
+                          <input class="form-check-input me-3" type="checkbox" value="" id="form2Example3c" />
+                          <label class="form-check-label text-white" for="form2Example3">
+                            I do accept the <a href="#!" class="text-white"><u>Terms and Conditions</u></a> of your
+                            site.
+                          </label>
+                        </div>
+      
+                        <button type="button" class="btn btn-light btn-lg"
+                          data-mdb-ripple-color="dark">Register</button>
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+
+</body>
+</html>
+
+<!--question 2 end here-->
+<!--Image start here-->
+<h4>sliding image</h4>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/1.jpg" class="d-block w-100" alt="loading......">
+      </div>
+      <div class="carousel-item">
+        <img src="images/2.jpg" class="d-block w-100" alt="Loading...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/3.jpg" class="d-block w-100" alt="Loading...">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--image section end here-->
+  <h4>card section</h4>
+ <div>
+  <div class="card a4" style="width: 18rem;">
+    <img src="images/1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-danger">
+          <a href="">
+            <img src="images/1.jpg" height="10px" width="10px">
+          </a>
+        </button>
+        <button type="button" class="btn btn-warning">
+          <a href="">
+            <img src="images/1.jpg" height="10px" width="10px">
+          </a>
+        </button>
+        <button type="button" class="btn btn-success">
+          <a href="">
+            <img src="images/1.jpg" height="10px" width="10px">
+          </a>
+        </button>
+        <button type="button" class="btn btn-dark">
+          <a href="">
+            <img src="images/1.jpg" height="10px" width="10px">
+          </a>
+        </button>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="card a4" style="width: 18rem;">
+    <img src="images/2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-danger">
+          <a href="">
+            <img src="images/1.jpg" height="10px" width="10px">
+          </a>
+        </button>
+        <button type="button" class="btn btn-warning">
+          <a href="">
+            <img src="images/1.jpg" height="10px" width="10px">
+          </a>
+        </button>
+        <button type="button" class="btn btn-success">
+          <a href="">
+            <img src="images/1.jpg" height="10px" width="10px">
+          </a>
+        </button>
+        <button type="button" class="btn btn-dark">
+          <a href="">
+            <img src="images/1.jpg" height="10px" width="10px">
+          </a>
+        </button>
+        
+      </div>
+    </div>
+  </div>
+  <div class="card a4" style="width: 18rem;">
+    <img src="images/3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-danger">
+          <a href="">
+            <img src="images/1.jpg" height="10px" width="10px">
+          </a>
+        </button>
+        <button type="button" class="btn btn-warning">
+          <a href="">
+            <img src="images/1.jpg" height="10px" width="10px">
+          </a>
+        </button>
+        <button type="button" class="btn btn-success">
+          <a href="">
+            <img src="images/1.jpg" height="10px" width="10px">
+          </a>
+        </button>
+        <button type="button" class="btn btn-dark">
+          <a href="">
+            <img src="images/1.jpg" height="10px" width="10px">
+          </a>
+        </button>
+        
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!--card section end here-->
+
